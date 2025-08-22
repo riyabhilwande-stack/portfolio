@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: #2C2D3C;
+  background: #F5F2EC;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+header {
+  background: #D17842;
+  padding: 1rem;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #F5F2EC;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #E7A8A1;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #2C2D3C;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #D17842;
+  box-shadow: 0 0 10px rgba(209, 120, 66, 0.6);
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Work Section */
+.projects {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #A4B4A0;
+  color: white;
+  margin-top: 2rem;
+}
