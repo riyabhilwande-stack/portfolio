@@ -5,7 +5,6 @@
 
 A simple and modern **HTML + CSS website** built to showcase a clean design, responsiveness, and smooth user experience.
 
-https://riyabhilwande-stack.github.io/portfolio/
 
 
 ---
@@ -45,7 +44,7 @@ https://riyabhilwande-stack.github.io/portfolio/
 
 ## 🌍 Live Demo
 
-👉 [Click here to view the website](https://your-username.github.io/your-repo-name/)
+👉 [Click here to view the website](https://riyabhilwande-stack.github.io/portfolio/)
 
 ---
 
@@ -53,6 +52,7 @@ https://riyabhilwande-stack.github.io/portfolio/
 
 * **HTML5**
 * **CSS3**
+* **JS**
 
 ---
 
